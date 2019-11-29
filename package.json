@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@nuxt/typescript-runtime": "^0.2.4",
     "nuxt": "latest",
     "vue-property-decorator": "latest"
   },
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt-ts",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
